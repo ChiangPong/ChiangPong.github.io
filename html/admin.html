@@ -1,0 +1,201 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <title>.CON</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- web hosted links -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <!-- local hosted links -->
+
+                    <!-- css links -->
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+                    <!-- JavaScript -->
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/npm.js"></script>
+
+        <style type="text/css">
+
+            /* navigation attributes */
+            .navbar {
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+            }
+
+            .navbar-nav li a:hover {
+                color: blue !important;
+            }
+
+            /* attributes for a general paragraph */
+            p{
+                font-size: 18px;
+            }
+
+            /* attributes for the img */
+          .img-rounded{
+                padding-bottom: 10px;
+            }
+
+            /* attribute of footer */
+            .footer{
+                margin: 40px;
+            }
+
+            /* attributes of the footer links */
+            li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li a:hover {
+                list-style-type: none;
+                color:  #6b6b47;
+            }
+
+            /* let the following properties take over when on 600px screen */
+            @media (max-width: 600px) {
+                h1{
+                    font-size: 20px;
+                }
+                .header_jumbotron{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+            }/* end of 600px screen */
+
+
+            /* let the following properties take over when on 768px screen */
+          @media screen and (max-width: 768px) {
+            .col-sm-4 {
+              text-align: center;
+              margin: 25px 0;
+            }
+            .btn-lg {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+          }
+
+            /* let the following properties take over when on 480px screen */
+          @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 150px;
+            }
+          }
+        </style>
+
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+        <!-- main header -->
+        <header>
+
+            <nav class="navbar navbar-default">
+                  <div class="container">
+                        <div class="navbar-header">
+
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+
+                              <a class="navbar-brand" href="../index.html">.CON</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+
+                              <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../index.html">HOME</a></li>
+                                <li><a href="student.html">STUDENT</a></li>
+                                <li class="active"><a href="#myPage">ADMINISTRATOR</a></li>
+                                <li><a href="landlord.html">LANDLORD</a></li>
+                              </ul>
+
+                        </div>
+                  </div>
+            </nav>
+
+        </header>
+
+            <!-- actual home page header -->
+        <div class="page-header Aheader_background">
+             <!-- a container to hold the welcome message -->
+            <div class="container">
+                 <!-- jumbotron for welcome massage -->
+                <div class="jumbotron header_jumbotron">
+                    <h1 class="text-center">ADMINISTARTOR PORTAL</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- main body -->
+        <section>
+     <!-- body container which is fluid -->
+            <div class="container">
+
+               
+
+                <div class="row form-row">
+
+                    <!-- first column with login form -->
+                    <div class="col-lg-4">
+
+                    </div>
+
+                    <!-- blank second column  -->
+                    <div class="col-lg-4">
+                        
+                         <h3>Log in</h3>
+                        
+                        <form role="form">
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="User Name...">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control" id="pwd" placeholder="Password...">
+                          </div>
+                          <button type="submit" class="btn btn-default"><a href="admin/admin_menu.html"> Login </a></button>
+                        </form>
+
+                        <a href="admin/admin_form.html">Don't have an account yet?</a>
+                    </div>
+
+                    <!-- blank third column  -->
+                    <div class="col-lg-4"></div>
+                </div>
+            </div><br><br>
+            <!-- end of the introductory row -->
+        </section>
+
+        <!-- main footer -->
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+
+            <div class="footer">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="student.html">STUDENT</a></li>
+                <li><a href="#myPage">ADMINISTRATOR</a></li>
+                <li><a href="landlord.html">LANDLORD</a></li>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
